@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+header {
+    height: 120px;
+    position: relative;
+}
+
+.title {
+    padding-left: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icons {
+    padding-right: 40px;
+}
+
+.icons ul {
+    list-style: none;
+}
+
+.icons ul li {
+    float: right;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+#menu {
+    height: 50px;
+    background-color: #303030;
+    padding-left: 20px;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding-left: 50px;
+    line-height: 50px;
+}
+
+#menu ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+main {
+    width:100%;
+}
+
+section {
+    background-image: url(../assets/desktop_main_picture.jpg);
+    background-size:cover;
+    overflow: hidden;
+    height: 500px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+article {
+    text-align: center;
+    padding: 40px;
+}
+
+.picture {
+    width: 200px;
+}
+
+.description {
+    text-align: left;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h3 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #303030;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: whitesmoke;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    }
+    
+    header {
+        height: 200px;
+        position: relative;
+    }
+    
+    .title {
+        padding-left: 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .title h1 {
+        font-size: 3rem;
+    }
+
+    .socialIcons {
+        width: 32px;
+    }
+    
+    .icons {
+        padding-right: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 100px;
+    }
+    
+    .icons ul {
+        list-style: none;
+    }
+    
+    .icons ul li {
+        float: none;
+        padding-top: 0;
+        text-align: center;
+        display: inline-block;
+        /* padding-left: 5px; */
+    }
+    
+    #menu {
+        height: auto;
+        background-color: #303030;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    #menu ul{
+        list-style: none;
+    }
+    
+    #menu ul li{
+        float: none;
+        padding-left: 0;
+        line-height: 50px;
+    }
+    
+    #menu ul li a {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    
+    section {
+        background-image: url(../assets/desktop_main_picture.jpg);
+        background-size:cover;
+        overflow: hidden;
+        height: 500px;
+    }
+    
+    h1 {
+        font-size: 1rem;
+    }
+    
+    h2 {
+        font-size: 0.5rem;
+    }
+    
+    article {
+        text-align: center;
+        padding: 40px;
+    }
+    
+    .picture {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .description {
+        display: inline-block;
+        text-align: center;
+        max-width: 100%;
+        /* margin-left: 40px; */
+        margin-left: 0;
+    }
+    
+    .description p, .description h3 {
+        margin-bottom: 20px;
+    }
+    
+    .description h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        color: white;
+        background-color: #303030;
+        width: 100%;
+    }
+}
