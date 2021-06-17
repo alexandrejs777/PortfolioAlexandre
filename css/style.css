@@ -93,6 +93,7 @@ article {
 
 .description p, .description h3 {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .description h3 {
@@ -106,7 +107,7 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     * {
         margin: 0;
         padding: 0;
@@ -229,5 +230,12 @@ footer {
         color: white;
         background-color: #303030;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+    .socialIcons {
+        width: 16px;
     }
 }
