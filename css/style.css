@@ -8,7 +8,7 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
-header {
+.header {
     height: 120px;
     position: relative;
 }
@@ -107,129 +107,187 @@ footer {
     width: 100%;
 }
 
+/* ------- Job experience window ------- */
+
+.subtitle {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    font-size: 1rem;   
+}
+
+.jobsLogo {
+    width: 300px;
+    float: left;
+    padding-right: 20px;
+}
+
+.content {
+    text-align: justify;
+    display: inline-block;
+    width: 80%;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+.content h3, .content h4, .content p {
+    padding-top: 10px;
+    
+}
+
+
 @media screen and (max-width: 550px){
-    * {
-        margin: 0;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.header {
+    height: 150px;
+    position: relative;
+}
+
+.title {
+    padding-left: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+
+.socialIcons {
+    width: 32px;
+}
+
+.icons {
+    padding-right: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 95px;
+}
+
+.icons ul {
+    list-style: none;
+}
+
+.icons ul li {
+    float: none;
+    padding-top: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+#menu {
+    height: auto;
+    background-color: #303030;
+    padding-left: 0;
+    text-align: center;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: none;
+    padding-left: 0;
+    line-height: 50px;
+}
+
+#menu ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+section {
+    background-image: url(../assets/desktop_main_picture.jpg);
+    background-size:cover;
+    overflow: hidden;
+    height: 500px;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 0.5rem;
+}
+
+article {
+    text-align: center;
+    padding: 40px;
+}
+
+.picture {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.description {
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.description p, .description h3 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #303030;
+    width: 100%;
+}
+
+
+/* ------- Job experience window ------- */
+    
+    .subtitle {
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container {
+    text-align: center;
+    }
+
+    .jobsLogo {
+        width: 300px;
+        float: none;
         padding: 0;
-    }
-    
-    body {
-        background-color: whitesmoke;
-        font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    }
-    
-    header {
-        height: 150px;
-        position: relative;
-    }
-    
-    .title {
-        padding-left: 0px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        margin: 0;
     }
 
-    .title h1 {
-        font-size: 3rem;
-    }
-
-    .socialIcons {
-        width: 32px;
-    }
-    
-    .icons {
-        padding-right: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding-top: 95px;
-    }
-    
-    .icons ul {
-        list-style: none;
-    }
-    
-    .icons ul li {
-        float: none;
-        padding-top: 0;
-        text-align: center;
-        display: inline-block;
-        /* padding-left: 5px; */
-    }
-    
-    #menu {
-        height: auto;
-        background-color: #303030;
-        padding-left: 0;
-        text-align: center;
-    }
-    
-    #menu ul{
-        list-style: none;
-    }
-    
-    #menu ul li{
-        float: none;
-        padding-left: 0;
-        line-height: 50px;
-    }
-    
-    #menu ul li a {
-        color: whitesmoke;
-        text-decoration: none;
-        font-size: 1rem;
-    }
-    
-    section {
-        background-image: url(../assets/desktop_main_picture.jpg);
-        background-size:cover;
-        overflow: hidden;
-        height: 500px;
-    }
-    
-    h1 {
-        font-size: 1rem;
-    }
-    
-    h2 {
-        font-size: 0.5rem;
-    }
-    
-    article {
-        text-align: center;
-        padding: 40px;
-    }
-    
-    .picture {
-        width: 200px;
-        margin-bottom: 20px;
-    }
-    
-    .description {
-        display: inline-block;
-        text-align: center;
-        max-width: 100%;
-        /* margin-left: 40px; */
-        margin-left: 0;
-    }
-    
-    .description p, .description h3 {
-        margin-bottom: 20px;
-    }
-    
-    .description h3 {
-        font-size: 24px;
-        text-align: center;
-    }
-    
-    footer {
-        text-align: center;
-        color: white;
-        background-color: #303030;
+    .content {
+        text-align: justify;
         width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
     }
 }
 
@@ -238,4 +296,37 @@ footer {
     .socialIcons {
         width: 16px;
     }
+
+
+    /* ------- Job experience window ------- */
+     
+    .subtitle {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .jobsLogo {
+        width: 200px;
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content {
+        text-align: justify;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .content h3, .content h4, .content p {
+        padding-top: 10px; 
+    }
 }
+
+
+
