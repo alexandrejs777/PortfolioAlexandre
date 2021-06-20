@@ -117,7 +117,7 @@ footer {
 
 .container {
     text-align: center;
-    font-size: 1rem;   
+    font-size: 1rem;
 }
 
 .jobsLogo {
@@ -130,15 +130,27 @@ footer {
     text-align: justify;
     display: inline-block;
     width: 80%;
-    margin-left: 40px;
     padding-bottom: 40px;
 }
 
 .content h3, .content h4, .content p {
-    padding-top: 10px;
-    
+    padding-top: 10px;  
 }
 
+.formContainer {
+    text-align: center;
+    width: auto;
+    background-color: darkslategrey;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width: 550px){
 * {
@@ -296,7 +308,6 @@ footer {
     .socialIcons {
         width: 16px;
     }
-
 
     /* ------- Job experience window ------- */
      
